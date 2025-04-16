@@ -1,5 +1,5 @@
 from modeltranslation.translator import register, TranslationOptions
-from .models import UserProfile, Brand, CarModel, Car, Auction, Bid, Feedback
+from .models import *
 
 @register(UserProfile)
 class UserProfileTranslationOptions(TranslationOptions):
